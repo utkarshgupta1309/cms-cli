@@ -1,0 +1,18 @@
+{
+  "name": "cms-cli",
+  "version": "1.0.0",
+  "description": "cms cli tool for CRUD operations for customer management",
+  "main": "index.js",
+  "preferGlobal": true,
+  "bin": "./commands.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Utkarsh Gupta",
+  "license": "MIT",
+  "dependencies": {
+    "commander": "^7.2.0",
+    "inquirer": "^8.1.0",
+    "mongoose": "^5.12.12"
+  }
+}
